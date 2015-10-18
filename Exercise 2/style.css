@@ -1,0 +1,47 @@
+img{
+	width:700px;
+	height:500px;
+}
+.container{
+	margin-left: auto;
+    margin-right: auto;
+    width:200px; float:center;
+}
+p {
+    margin-left: auto;
+    margin-right: auto;
+    width:800px;
+    outline: black thick solid;
+    padding: 40px 40px 40px 40px;
+   }
+ul a{
+	text-decoration: none;
+	color:white;
+}
+a li{
+	font-family: helvetica;
+	outline: white solid thin;
+	margin-left: -40px;
+	text-indent: 15px;
+
+}
+h1{
+	margin-left: 400px;
+    font-family: Helvetica;  
+}
+ul{
+	list-style-type: none;
+}
+h3{
+	margin-left:10px;
+}
+#buttons{
+	
+    list-style: none;
+    text-align: left;
+    background-color: #000000;
+    margin-right: 30px;
+    width: 100px;
+    line-height: 30px;
+}
+
