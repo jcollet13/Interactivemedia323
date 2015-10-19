@@ -17,8 +17,8 @@ p {
     outline: white thick solid;
     padding: 40px 40px 40px 40px;
     text-indent: 40px;
-    background-color: #fcfceb;
-  
+    background-color: #faf6e6;
+    letter-spacing: +.25px
    }
 a:hover{
     color:#e5dcec;
@@ -39,7 +39,8 @@ h1{
 	margin-left: auto;
     margin-right: auto;
     font-family: Helvetica;
-    width:450px;
+    width:600px;
+    font-size: 44px;
 }
 ul{
 	list-style-type: none;
@@ -63,7 +64,7 @@ h3{
     outline: white thick solid;
     padding: 40px 40px 40px 40px;
     float:center;
-    background-color: #fcfceb;
+    background-color: #faf6e6;
 }
 li{
     width:420px;
