@@ -1,0 +1,152 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+.base{
+	position:absolute;
+	left:225px;
+	top:135px;
+	height:400px;
+	width:600px;
+}
+.base.one{
+	width: 400px;
+	height: 230px;
+	-webkit-transform: skew(2deg);
+	   -moz-transform: skew(2deg);
+	     -o-transform: skew(2deg);
+	background:#cfcbcb;
+	border-radius: 7px;
+	z-index:1
+
+}
+.base.two{
+	width: 400px;
+	height: 230px;
+	-webkit-transform: skew(-7deg);
+	   -moz-transform: skew(-7deg);
+	     -o-transform: skew(-7deg);
+	background:#cfcbcb;
+	margin-left:-19px;
+	border-radius: 7px;
+	z-index:2;
+	margin-top:245;
+}
+.base.three{
+	width:436px;
+	height:15px;
+	background:#a7a6a6;
+	margin-left:-32px;
+	margin-top:230px;
+	border-radius:5px;
+	 
+}
+.base.four{
+	width:436px;
+	height:15px;
+	background:#a7a6a6;
+	margin-left:-32px;
+	margin-top:224px;
+	border-radius:2px;
+	
+}	 
+.base.five{
+	width:40px;
+	height:5px;
+	background:#e2e2e2;
+	margin-left:165px;
+	margin-top:228px;
+	border-radius:2px;
+	z-index:3;
+}
+.base.six{
+	width: 100px;
+	height: 60px;
+	-webkit-transform: skew(2deg);
+	   -moz-transform: skew(2deg);
+	     -o-transform: skew(2deg);
+	background:#e2e2e2;
+	margin-left:145px;
+	margin-top:160px;
+	border-radius: 7px;
+	z-index:4
+
+}
+.base.seven{
+	width: 100px;
+	height: 60px;
+	-webkit-transform: skew(-7deg);
+	   -moz-transform: skew(-7deg);
+	     -o-transform: skew(-7deg);
+	background:#e2e2e2;
+	margin-left:-19px;
+	margin-left:126px;
+	margin-top:160px;
+	border-radius: 7px;
+	z-index:5;
+	margin-top:245;
+}
+.base.eight{
+	width: 350px;
+	height: 125px;
+	-webkit-transform: skew(2deg);
+	   -moz-transform: skew(2deg);
+	     -o-transform: skew(2deg);
+	background:#e2e2e2;
+	margin-left:23px;
+	margin-top:27px;
+	border-radius: 7px;
+	z-index:6;
+
+}
+.base.nine{
+	width: 350px;
+	height: 125px;
+	-webkit-transform: skew(-7deg);
+	   -moz-transform: skew(-7deg);
+	     -o-transform: skew(-7deg);
+	background:#e2e2e2;
+	margin-left:-19px;
+	margin-left:4px;
+	margin-top:27px;
+	z-index:7;
+	margin-top:245;
+	border-radius: 7px;
+}
+.base.ten{
+	width: 250px;
+	height: 20px;
+	-webkit-transform: skew(2deg);
+	   -moz-transform: skew(2deg);
+	     -o-transform: skew(2deg);
+	background:black;
+	margin-left:80px;
+	margin-top:0px;
+	z-index:8;
+
+}
+.base.elf{
+	width: 250px;
+	height: 20px;
+	-webkit-transform: skew(-7deg);
+	   -moz-transform: skew(-7deg);
+	     -o-transform: skew(-7deg);
+	background:black;
+	margin-left:61px;
+	margin-top:0px;
+	z-index:9;
+	margin-top:245;
+}
+
+

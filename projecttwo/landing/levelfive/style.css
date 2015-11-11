@@ -1,0 +1,30 @@
+.nav{
+	font-family: sans-serif;
+	text-align: center;
+	
+}
+.nav p{
+	display: inline;
+	text-align: center;
+	border:black 1px solid;
+	padding: 2px;
+	
+	background-color: black;
+
+}
+ .nav p:hover + a{
+	color:black;
+	background-color: white;
+	cursor:pointer;
+
+}
+a{
+	text-decoration: none;
+	color: white;
+
+}
+a:hover{
+
+	color: black;
+	background-color: white;
+}
